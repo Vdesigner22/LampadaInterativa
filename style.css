@@ -1,0 +1,52 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+}
+h1 {
+    font-weight: 600;
+}
+
+head, main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.Danger{
+    background-color: bisque;
+    color: red;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    border-radius: 10px;
+    border: 0.2px solid greenyellow;
+    color: green;
+    font-weight: 400;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: green;
+    color: aliceblue;
+}
+
+img {
+    cursor: pointer;
+    width: 100px;
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+#broken {
+    width: 100px; 
+}
+#on, #broken, #repairBtn {
+      display: none;
+    }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampada</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="src/Favicom.png" type="image/x-icon">
+
+</head>
+<body>
+    <main>
+    <header>
+        <h1>CUIDADO, FRÁGIL</h1>
+    </header>
+        <div>
+            <img src="src/desligada.jpg" alt="Lampada" id="Lamp">
+            <img src="src/ligada.jpg" alt="ligada" id="on">
+            <img src="src/quebrada.jpg" alt="quebrada" id="broken">
+        </div>
+
+        <div class="LampBroken">
+            <audio id="BrokenLamp" src="src/BrokenLamp.mpeg"></audio>
+            <audio Id="OffAnOn" src="src/OffAndOn.mpeg"></audio>
+            <audio id="OnAnOff" src="src/OffAndOn.mpeg"></audio>
+        </div>
+
+        <div>
+            <button id="TurnOn">Ligar</button>
+            <button id="TurnOff">Desligar</button>
+            <button id="repairBtn">Consertar</button>
+        </div>
+        <h1 class="Danger">NÃO CLIQUE NA LAMPADA</h1>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
